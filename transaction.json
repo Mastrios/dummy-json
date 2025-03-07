@@ -15,7 +15,7 @@
     "discount": {
       "code": "DISC10",
       "amount": 5000,
-      "expired_at": "2025-06-30T23:59:59Z"
+      "expired_at": 1751241599000
     },
     "total_paid": 47500,
     "user": {
@@ -28,10 +28,12 @@
       "url": "https://payment.example.com/checkout/ORD123456",
       "va": []
     },
+    "status": "Completed",
+    "message": "Pembayaran berhasil dikonfirmasi.",
     "timestamp": {
-      "created_at": "2025-03-07T10:00:00Z",
-      "expired_at": "2025-03-07T10:15:00Z",
-      "updated_at": "2025-03-07T10:05:00Z"
+      "created_at": 1743945600000,
+      "expired_at": 1743946500000,
+      "updated_at": 1743945900000
     }
   },
   {
@@ -68,10 +70,12 @@
         }
       ]
     },
+    "status": "Pending",
+    "message": "Menunggu konfirmasi pembayaran.",
     "timestamp": {
-      "created_at": "2025-03-06T15:30:00Z",
-      "expired_at": "2025-03-06T15:45:00Z",
-      "updated_at": "2025-03-06T15:35:00Z"
+      "created_at": 1743859200000,
+      "expired_at": 1743860100000,
+      "updated_at": 1743859500000
     }
   },
   {
@@ -90,7 +94,7 @@
     "discount": {
       "code": "WELCOME5",
       "amount": 5000,
-      "expired_at": "2025-07-15T23:59:59Z"
+      "expired_at": 1752710399000
     },
     "total_paid": 70500,
     "user": {
@@ -103,125 +107,12 @@
       "url": "https://payment.example.com/checkout/ORD567890",
       "va": []
     },
+    "status": "Failed",
+    "message": "Pembayaran gagal. Silakan coba lagi.",
     "timestamp": {
-      "created_at": "2025-03-05T12:00:00Z",
-      "expired_at": "2025-03-05T12:15:00Z",
-      "updated_at": "2025-03-05T12:05:00Z"
-    }
-  },
-  {
-    "id_user": "USR004",
-    "id_order": "ORD112233",
-    "id_transaction": "TXN998877",
-    "amount": 30000,
-    "ppn": {
-      "percent": 10,
-      "amount": 3000
-    },
-    "bonus": {
-      "percent": 2,
-      "amount": 600
-    },
-    "discount": {
-      "code": null,
-      "amount": 0,
-      "expired_at": null
-    },
-    "total_paid": 27600,
-    "user": {
-      "name": "Budi Santoso",
-      "email": "budi.santoso@example.com"
-    },
-    "payment": {
-      "type": "Bank Transfer",
-      "method": "Mandiri Virtual Account",
-      "url": "https://payment.example.com/checkout/ORD112233",
-      "va": [
-        {
-          "bank": "Mandiri",
-          "number": "0987654321"
-        }
-      ]
-    },
-    "timestamp": {
-      "created_at": "2025-03-04T09:45:00Z",
-      "expired_at": "2025-03-04T10:00:00Z",
-      "updated_at": "2025-03-04T09:50:00Z"
-    }
-  },
-  {
-    "id_user": "USR005",
-    "id_order": "ORD445566",
-    "id_transaction": "TXN776655",
-    "amount": 200000,
-    "ppn": {
-      "percent": 10,
-      "amount": 20000
-    },
-    "bonus": {
-      "percent": 6,
-      "amount": 12000
-    },
-    "discount": {
-      "code": "BIGSAVE20",
-      "amount": 20000,
-      "expired_at": "2025-08-01T23:59:59Z"
-    },
-    "total_paid": 172000,
-    "user": {
-      "name": "Siti Aminah",
-      "email": "siti.aminah@example.com"
-    },
-    "payment": {
-      "type": "E-Wallet",
-      "method": "GoPay",
-      "url": "https://payment.example.com/checkout/ORD445566",
-      "va": []
-    },
-    "timestamp": {
-      "created_at": "2025-03-03T14:10:00Z",
-      "expired_at": "2025-03-03T14:25:00Z",
-      "updated_at": "2025-03-03T14:15:00Z"
-    }
-  },
-  {
-    "id_user": "USR006",
-    "id_order": "ORD778899",
-    "id_transaction": "TXN554433",
-    "amount": 150000,
-    "ppn": {
-      "percent": 10,
-      "amount": 15000
-    },
-    "bonus": {
-      "percent": 4,
-      "amount": 6000
-    },
-    "discount": {
-      "code": null,
-      "amount": 0,
-      "expired_at": null
-    },
-    "total_paid": 141000,
-    "user": {
-      "name": "Dewi Kartika",
-      "email": "dewi.kartika@example.com"
-    },
-    "payment": {
-      "type": "Bank Transfer",
-      "method": "BRI Virtual Account",
-      "url": "https://payment.example.com/checkout/ORD778899",
-      "va": [
-        {
-          "bank": "BRI",
-          "number": "5678901234"
-        }
-      ]
-    },
-    "timestamp": {
-      "created_at": "2025-03-02T11:20:00Z",
-      "expired_at": "2025-03-02T11:35:00Z",
-      "updated_at": "2025-03-02T11:25:00Z"
+      "created_at": 1743772800000,
+      "expired_at": 1743773700000,
+      "updated_at": 1743773100000
     }
   }
 ]
