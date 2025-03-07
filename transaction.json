@@ -1,0 +1,227 @@
+[
+  {
+    "id_user": "USR001",
+    "id_order": "ORD123456",
+    "id_transaction": "TXN987654",
+    "amount": 50000,
+    "ppn": {
+      "percent": 10,
+      "amount": 5000
+    },
+    "bonus": {
+      "percent": 5,
+      "amount": 2500
+    },
+    "discount": {
+      "code": "DISC10",
+      "amount": 5000,
+      "expired_at": "2025-06-30T23:59:59Z"
+    },
+    "total_paid": 47500,
+    "user": {
+      "name": "Fajar Pratama",
+      "email": "fajar.pratama@example.com"
+    },
+    "payment": {
+      "type": "E-Wallet",
+      "method": "Dana",
+      "url": "https://payment.example.com/checkout/ORD123456",
+      "va": []
+    },
+    "timestamp": {
+      "created_at": "2025-03-07T10:00:00Z",
+      "expired_at": "2025-03-07T10:15:00Z",
+      "updated_at": "2025-03-07T10:05:00Z"
+    }
+  },
+  {
+    "id_user": "USR002",
+    "id_order": "ORD654321",
+    "id_transaction": "TXN123789",
+    "amount": 100000,
+    "ppn": {
+      "percent": 10,
+      "amount": 10000
+    },
+    "bonus": {
+      "percent": 3,
+      "amount": 3000
+    },
+    "discount": {
+      "code": null,
+      "amount": 0,
+      "expired_at": null
+    },
+    "total_paid": 93000,
+    "user": {
+      "name": "Rina Salsabila",
+      "email": "rina.salsabila@example.com"
+    },
+    "payment": {
+      "type": "Bank Transfer",
+      "method": "BCA Virtual Account",
+      "url": "https://payment.example.com/checkout/ORD654321",
+      "va": [
+        {
+          "bank": "BCA",
+          "number": "1234567890"
+        }
+      ]
+    },
+    "timestamp": {
+      "created_at": "2025-03-06T15:30:00Z",
+      "expired_at": "2025-03-06T15:45:00Z",
+      "updated_at": "2025-03-06T15:35:00Z"
+    }
+  },
+  {
+    "id_user": "USR003",
+    "id_order": "ORD567890",
+    "id_transaction": "TXN654321",
+    "amount": 75000,
+    "ppn": {
+      "percent": 10,
+      "amount": 7500
+    },
+    "bonus": {
+      "percent": 4,
+      "amount": 3000
+    },
+    "discount": {
+      "code": "WELCOME5",
+      "amount": 5000,
+      "expired_at": "2025-07-15T23:59:59Z"
+    },
+    "total_paid": 70500,
+    "user": {
+      "name": "Andi Wijaya",
+      "email": "andi.wijaya@example.com"
+    },
+    "payment": {
+      "type": "E-Wallet",
+      "method": "OVO",
+      "url": "https://payment.example.com/checkout/ORD567890",
+      "va": []
+    },
+    "timestamp": {
+      "created_at": "2025-03-05T12:00:00Z",
+      "expired_at": "2025-03-05T12:15:00Z",
+      "updated_at": "2025-03-05T12:05:00Z"
+    }
+  },
+  {
+    "id_user": "USR004",
+    "id_order": "ORD112233",
+    "id_transaction": "TXN998877",
+    "amount": 30000,
+    "ppn": {
+      "percent": 10,
+      "amount": 3000
+    },
+    "bonus": {
+      "percent": 2,
+      "amount": 600
+    },
+    "discount": {
+      "code": null,
+      "amount": 0,
+      "expired_at": null
+    },
+    "total_paid": 27600,
+    "user": {
+      "name": "Budi Santoso",
+      "email": "budi.santoso@example.com"
+    },
+    "payment": {
+      "type": "Bank Transfer",
+      "method": "Mandiri Virtual Account",
+      "url": "https://payment.example.com/checkout/ORD112233",
+      "va": [
+        {
+          "bank": "Mandiri",
+          "number": "0987654321"
+        }
+      ]
+    },
+    "timestamp": {
+      "created_at": "2025-03-04T09:45:00Z",
+      "expired_at": "2025-03-04T10:00:00Z",
+      "updated_at": "2025-03-04T09:50:00Z"
+    }
+  },
+  {
+    "id_user": "USR005",
+    "id_order": "ORD445566",
+    "id_transaction": "TXN776655",
+    "amount": 200000,
+    "ppn": {
+      "percent": 10,
+      "amount": 20000
+    },
+    "bonus": {
+      "percent": 6,
+      "amount": 12000
+    },
+    "discount": {
+      "code": "BIGSAVE20",
+      "amount": 20000,
+      "expired_at": "2025-08-01T23:59:59Z"
+    },
+    "total_paid": 172000,
+    "user": {
+      "name": "Siti Aminah",
+      "email": "siti.aminah@example.com"
+    },
+    "payment": {
+      "type": "E-Wallet",
+      "method": "GoPay",
+      "url": "https://payment.example.com/checkout/ORD445566",
+      "va": []
+    },
+    "timestamp": {
+      "created_at": "2025-03-03T14:10:00Z",
+      "expired_at": "2025-03-03T14:25:00Z",
+      "updated_at": "2025-03-03T14:15:00Z"
+    }
+  },
+  {
+    "id_user": "USR006",
+    "id_order": "ORD778899",
+    "id_transaction": "TXN554433",
+    "amount": 150000,
+    "ppn": {
+      "percent": 10,
+      "amount": 15000
+    },
+    "bonus": {
+      "percent": 4,
+      "amount": 6000
+    },
+    "discount": {
+      "code": null,
+      "amount": 0,
+      "expired_at": null
+    },
+    "total_paid": 141000,
+    "user": {
+      "name": "Dewi Kartika",
+      "email": "dewi.kartika@example.com"
+    },
+    "payment": {
+      "type": "Bank Transfer",
+      "method": "BRI Virtual Account",
+      "url": "https://payment.example.com/checkout/ORD778899",
+      "va": [
+        {
+          "bank": "BRI",
+          "number": "5678901234"
+        }
+      ]
+    },
+    "timestamp": {
+      "created_at": "2025-03-02T11:20:00Z",
+      "expired_at": "2025-03-02T11:35:00Z",
+      "updated_at": "2025-03-02T11:25:00Z"
+    }
+  }
+]
